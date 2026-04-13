@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LINK BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="node_modules/@coreui/icons/css/all.min.css">
+    <link rel="icon" href="/img/Logo NaN.png" type="image/png">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- NAV -->
+        <nav class="nav container">
+            <!-- LOGO -->
+            <a href="#home">
+                <img class="logo" src="img\Logo NaN.png" alt=""">
+            </a> 
+            <!-- NAVBAR -->
+            <ul class=" navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#exp" class="nav-link">Experiences</a></li>
+                <li><a href="#services" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                </ul>
+                <!-- MENU ICON -->
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!-- HOME -->
+        <div class="home container" id="home">
+            <aside class="home-content">
+                <div class="home-img">
+                    <img src="img\pp6.jpeg" alt="">
+                </div>
+                <div class="home-text">
+                    <h3>Halooo!</h3>
+                    <h2>Namaku Fernanda Andyka Putra</span></h2>
+                    <p>
+                        Aku adalah seorang Full Stack Developer yang memiliki pengalaman lebih dari 2 tahun. Aku
+                        sangat antusias dengan dunia Web dan App Developer. Ingin mengenal lebih dalam mengenaiku?
+                    </p>
+                    <!-- SOSMED -->
+                    <div class="social">
+                        <a target="_blank" href="https://www.instagram.com/fernanda_andyka/"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a target="_blank" href=" https://wa.me/6287884165248"><i class='bx bxl-whatsapp'></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/fernanda-andyka-putra-a6571924a/"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <!-- EXPERIENCES - MOBILE VIEW -->
+        <div class="timeline container reveal" id="exp1">
+            <!-- Heading -->
+            <h2 class="heading">Experiences</h2>
+            <!-- ISI -->
+            <div class="wrapper">
+                <i id="left" class='bx bxs-left-arrow'></i></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img src="img/upnvj.png" alt="img" draggable="false"></div>
+                        <h2>UPN Veteran Jakarta</h2>
+                        <span>Kuliah - S1</span>
+                        <ul>
+                            <li>Jurusan S1 Informatika</li>
+                            <li>IPK 3.92</li>
+                            <li>Lulus Predikat Cumlaude</li>
+                        </ul>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="img/ksm.jpg" alt="img" draggable="false"></div>
+                        <h2>KSM Multimedia</h2>
+                        <span>Organisasi - Anggota</span>
+                        <ul>
+                            <li>Belajar web dasar dgn HTML, CSS, dan JS</li>
+                            <li>Membuat web "Portfolio" dgn responsive</li>
+                        </ul>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="img/bca.png" alt="img" draggable="false"></div>
+                        <h2>Bank BCA</h2>
+                        <p>Magang - Outsystems Developer</p>
+                        <ul>
+                            <li>Bergabung dgn tim IT di Head Office (Menara BCA)</li>
+                            <li>Mengimplementasikan RFID reader serta mengintegrasikannya dengan aplikasi mobile dan website melalui REST API</li>
+                            <li>Meningkatkan efisiensi pengelolaan inventaris skala enterprise di 36+ divisi internal</li>
+                            <li>Bekerja dgn SCRUM</li>
+                        </ul>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="img/vocasia.png" alt="img" draggable="false"></div>
+                        <h2>Vocasia</h2>
+                        <p>Magang - Fullstack Developer</p>
+                        <ul>
+                            <li>Merombak halaman search pada website Vocasia dan berhasil meningkatkan peformanya</li>
+                            <li>Mengembangkan Halaman E-Learning pada produk</li>
+                            <li>Membuat Custom Hooks dalam meng-consume API</li>
+                            <li>Bekerja dgn SCRUM</li>
+                        </ul>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="img/ais.png" alt="img" draggable="false"></div>
+                        <h2>Vocasia</h2>
+                        <p>Penuh Waktu - Fullstack Developer</p>
+                        <ul>
+                            <li>Mengembangkan aplikasi yang digunakan oleh 2.000+ pengguna di berbagai cabang</li>
+                            <li>Mengintegrasikan berbagai modul termasuk data core, dashboard operasional, absensi, report, pemesanan kantin, transaksi e-money, manajemen perpustakaan, dan portal orang tua</li>
+                            <li>Membuat sistem logging sebagai audit</li>
+                        </ul>
+                    </li>
+                </ul>
+                <i id="right" class='bx bxs-right-arrow'></i>
+            </div>
+        </div>
+
+        <!-- EXPERIENCES WEB VIEW -->
+        <div class="timeline reveal" id="exp">
+            <!-- Heading -->
+            <h2 class="heading">Experiences</h2>
+            <!-- ISI -->
+
+            <div class="isi-exp">
+                <div class="container-exp left-constainer">
+                    <img src="img/upnvj.png">
+                    <div class="text-box" id="kiri">
+                        <h2>Universitas Negeri <br> UPN Veteran Jakarta</h2>
+                        <p>Kuliah - S1</p>
+                        <small>2020 - 2024</small>
+                        <ul>
+                            <li>Jurusan Informatika</li>
+                            <li>IPK 3.92</li>
+                            <li>Lulus Predikat Cumlaude</li>
+                        </ul>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container-exp right-container">
+                    <img src="img/ksm.jpg">
+                    <div class="text-box" id="kanan">
+                        <h2>KSM Multimedia FIK</h2>
+                        <p>Organisasi - Anggota</p>
+                        <small>2020 - 2021</small>
+                        <ul>
+                            <li>Belajar web dasar dgn HTML, CSS, dan JS</li>
+                            <li>Membuat web "Portfolio" dgn responsive</li>
+                        </ul>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container-exp left-container">
+                    <img src="img/bca.png">
+                    <div class="text-box" id="kiri">
+                        <h2>PT. Bank Central Asia Tbk</h2>
+                        <p>Magang - Outsystems Developer</p>
+                        <small>Feb - Juni 2023</small>
+                        <ul>
+                            <li>Bergabung dgn tim IT di Head Office (Menara BCA)</li>
+                            <li>Mengimplementasikan RFID reader serta mengintegrasikannya dengan aplikasi mobile dan website melalui REST API</li>
+                            <li>Meningkatkan efisiensi pengelolaan inventaris skala enterprise di 36+ divisi internal</li>
+                            <li>Bekerja dgn SCRUM</li>
+                        </ul>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container-exp right-container">
+                    <img src="img/vocasia.png">
+                    <div class="text-box" id="kanan">
+                        <h2>PT. Vocasia Eduka Technology</h2>
+                        <p>Magang - Fullstack Developer</p>
+                        <small>Feb - Juni 2024</small>
+                        <ul>
+                            <li>Merombak Halaman Search pada website Vocasia dan berhasil meningkatkan peformanya</li>
+                            <li>Mengembangkan Halaman E-Learning pada produk</li>
+                            <li>Membuat Custom Hooks dalam meng-consume API</li>
+                            <li>Bekerja dgn SCRUM</li>
+                        </ul>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container-exp left-container">
+                    <img src="img/ais.png">
+                    <div class="text-box" id="kiri">
+                        <h2>AIS Indonesia</h2>
+                        <p>Penuh Waktu - Fullstack Developer</p>
+                        <small>Okt 2025 - Sekarang</small>
+                        <ul>
+                            <li>Mengembangkan aplikasi yang digunakan oleh 2.000+ pengguna di berbagai cabang</li>
+                            <li>Mengintegrasikan berbagai modul termasuk data core, dashboard operasional, absensi, report, pemesanan kantin, transaksi e-money, manajemen perpustakaan, dan portal orang tua</li>
+                            <li>Membuat sistem logging sebagai audit</li>
+                        </ul>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SKILLS -->
+        <div class="services container reveal" id="services">
+            <!-- Heading -->
+            <h2 class="heading">Skills</h2>
+            <!-- ISI -->
+            <article class="services-content">
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class='bx bxs-disc'></i>
+                            <h2>Outsystems</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>REST API</li>
+                                <li>Database</li>
+                                <li>Widgeting, Action</li>
+                                <li>Import Excel</li>
+                                <li>Export PDF Excel</li>
+                                <li>Use Dependencies</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="bx cib-react"></i>
+                            <h2>ReactJs</h2>
+
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>Custom Hook</li>
+                                <li>useEffect</li>
+                                <li>useState</li>
+                                <li>Chakra-UI</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="bx cib-next-js"></i>
+                            <h2>NextJs</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>useRouter</li>
+                                <li>useSWRConfig</li>
+                                <li>Mutate</li>
+                                <li>SSR</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="bx cib-typescript"></i>
+                            <h2>TypeScript</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>Data Mapper</li>
+                                <li>Use Remote</li>
+                                <li>Yup Schema</li>
+                                <li>Formating</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="bx cib-laravel"></i>
+                            <h2>Laravel</h2>
+
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>MVC Arsitektur</li>
+                                <li>Eloquent ORM</li>
+                                <li>Fortify</li>
+                                <li>Sanctum</li>
+                                <li>API Config</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="bx cib-flutter"></i>
+                            <h2>Flutter</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>BLoC Arsitektur</li>
+                                <li>Custom Widgets</li>
+                                <li>Go Router</li>
+                                <li>API Config</li>
+                                <li>dll</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class='bx bx-sort-alt-2'></i>
+                            <h2>API</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>Firebase Auth</li>
+                                <li>Firebase FCM</li>
+                                <li>Midtrans</li>
+                                <li>Openstreetmap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-box flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class='bx bx-cog'></i>
+                            <h2>Tools</h2>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul>
+                                <li>Github & Gitlab</li>
+                                <li>Trello</li>
+                                <li>Postman</li>
+                                <li>Table Plus</li>
+                                <li>PuTTY</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- PORTFOLIO -->
+        <div class="portfolio container reveal" id="portfolio">
+            <!-- Heading -->
+            <h2 class="heading">Projects</h2>
+            <!-- ISI -->
+            <article class="portfolio-content">
+                <div class="portfolio-box">
+                    <img src="img\p3.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>SMILE LAUNDRY - APP CUSTOMER</h2>
+                        <div class="button-container">
+                            <a href="https://youtu.be/Sb2f_XauUyI?si=FIp7qQLwYx27zR_M" target="_blank">
+                                <i class='bx bx-link-external'></i>
+                            </a>
+                            <button onclick="showModal('modal3')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="img\p2.PNG" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>SMILE LAUNDRY - WEB ADMIN</h2>
+                        <div class="button-container">
+                            <a href="https://smilelaundry.ferdyradev.com/" target="_blank">
+                                <i class='bx bx-link-external'></i>
+                            </a>
+                            <button onclick="showModal('modal2')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-box">
+                    <img src="img\p0.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>E-CARENT - LARAVEL 10</h2>
+                        <div class="button-container">
+                            <a target="_blank" href="https://ecarent.ferdyradev.com">
+                                <i class='bx bx-link-external'></i>
+                            </a>
+                            <button onclick="showModal('modal1')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="img\p5.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>VOCASIA - REACT & NEXT JS</h2>
+                        <div class="button-container">
+                            <a target="_blank" href="https://vocasia-v4.vercel.app/">
+                                <i class='bx bx-link-external'></i>
+                            </a>
+                            <button onclick="showModal('modal4')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="img\p4.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>BIOSKOP - OUTSYSTEMS</h2>
+                        <div class="button-container">
+                            <button onclick="portBtn()">
+                                <i class='bx bx-link-external'></i>
+                            </button>
+                            <button onclick="showModal('modal5')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="img\p6.png" alt="" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h2>STOCKIPER - OUTSYSTEMS</h2>
+                        <div class="button-container">
+                            <button onclick="portBtn()">
+                                <i class='bx bx-link-external'></i>
+                            </button>
+                            <button onclick="showModal('modal6')" class="info-btn">
+                                <i class='bx bx-info-circle'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Modal structures -->
+            <div id="modal1" class="modalb2">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal1')">&times;</span>
+                    <h2>E-CARENT - LARAVEL 10</h2>
+                    <p>Project Bootcamp BuildWithAngga - Sewa Mobil</p>
+                    <ul>
+                        <li>Dibuat mandiri dengan bahasa PHP, Laravel 10, Blade, Tailwind</li>
+                        <li>Menggunakan Arsitektur MVC</li>
+                        <li>Integrasi API E-Payment (Midtrans)</li>
+                        <li>Memanfaatkan package Jetstream, Yajra Table, domPDF, LaravelExcel</li>
+                        <li>Menggunakan database Mysql</li>
+                        <li>Di deploy menggunakan VPS Ubuntu</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal2')">&times;</span>
+                    <h2>SMILE LAUNDRY - LARAVEL 10</h2>
+                    <p>Project Skripsi/TA - Laundry Admin</p>
+                    <ul>
+                        <li>Dibuat mandiri dengan bahasa PHP, Laravel 10, Blade, Boostrap</li>
+                        <li>Menggunakan Arsitektur MVC</li>
+                        <li>Integrasi API Mobile App Smile Laundry</li>
+                        <li>Integrasi API Firebase FCM</li>
+                        <li>Memanfaatkan package Fortify, Yajra Table, domPDF, LaravelExcel</li>
+                        <li>Menggunakan database Mysql</li>
+                        <li>Di deploy menggunakan VPS Ubuntu</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal3')">&times;</span>
+                    <h2>SMILE LAUNDRY - FLUTTER</h2>
+                    <p>Project Skripsi/TA - Laundry Customer</p>
+                    <ul>
+                        <li>Dibuat mandiri dengan bahasa Dart dan Framework Flutter</li>
+                        <li>Menggunakan Arsitektur BLoC</li>
+                        <li>Integrasi API Website Smile Laundry</li>
+                        <li>Integrasi API Firebase FCM</li>
+                        <li>Integrasi API Firebase Auth</li>
+                        <li>Integrasi API Openstreetmap</li>
+                        <li>Implementasi Algoritma Haversine</li>
+                        <li>Memanfaatkan plugin quickalert, slider, go_router, freezed, dll</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modal4" class="modalb2">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal4')">&times;</span>
+                    <h2>VOCASIA - REACT & NEXT JS</h2>
+                    <p>Project Magang - Website Vocasia</p>
+                    <ul>
+                        <li>Dibuat bersama tim dengan ReactJs dan NextJs</li>
+                        <li>Menerapkan Custom Hooks dalam meng-consume API</li>
+                        <li>Menggunakan Chakra-UI dan Eslint</li>
+                        <li>Menerapkan filter, pagination, dan logic lainnya</li>
+                        <li>Debugging API, UI, dan Logic</li>
+                        <li>Menerapkan gitlab dan trello </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modal5" class="modalb3">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal5')">&times;</span>
+                    <h2>BIOSKOP - OUTSYSTEMS</h2>
+                    <p>Project Training BCA - Twenty Bioskop</p>
+                    <ul>
+                        <li>Dibuat bersama tim dengan Outsystems</li>
+                        <li>Import dari excel untuk data bank dan film</li>
+                        <li>Role terdiri dari admin dan customer</li>
+                        <li>Integrasi Dependencies SeatMapSelector</li>
+                        <li>Export Laporan Bulanan Admin (Excel)</li>
+                        <li>Export Tiket Customer (PDF)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="modal6" class="modalb3">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal6')">&times;</span>
+                    <h2>STOCKIPER - OUTSYSTEMS</h2>
+                    <p>Project Magang BCA - Stockiper</p>
+                    <ul>
+                        <li>Dibuat bersama tim dengan Outsystems</li>
+                        <li>Integrasi API dengan Mobile App Stockiper</li>
+                        <li>Membuat Chart, Tabel, Form, dll</li>
+                        <li>Import Data dari Excel ke Tabel</li>
+                        <li>Export Tabel ke Excel</li>
+                        <li>Menerapkan Auditrail BCA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portfolio-buttons">
+                <button onclick="loadMore()" class="more-button">Show More</button>
+                <button onclick="showLess()" class="close-button hidden">Show Less</button>
+            </div>
+        </div>
+
+        <!-- LINK JS -->
+        <script src="javascript.js"></script>
+    </main>
+
+    <footer class="footer">
+        <h2>Fernanda Andyka Putra</h2>
+        <p>Website ini dibuat pada tanggal 2 Oktober 2022 sebagai Portfolio saya pribadi dengan hanya menggunakan
+            Semantic HTML, CSS, dan Javascript</p>
+        <div class="social-icons">
+            <a target="_blank" href="https://www.instagram.com/fernanda_andyka/"><i class='bx bxl-instagram'></i></a>
+            <a target="_blank" href=" https://wa.me/6287884165248"><i class='bx bxl-whatsapp'></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/fernanda-andyka-putra-a6571924a/"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="#home">Home |</a></li>
+                <li><a href="#exp">Experiences |</a></li>
+                <li><a href="#services">Skills |</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
